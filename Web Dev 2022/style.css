@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.header h1 {
+    color: white;
+    font-size: 30px
+}
+
+.navbar {
+    padding: 5px;
+}
+
+.navbar .list-grp {
+    list-style-type: none;
+    text-align: center;
+}
+
+.list-item {
+    display: inline;
+}
+
+.list-grp a {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.list-grp a:hover {
+    color: lightgray;
+}
+
+.home {
+    background-image: url(/Images/codelines.jpg);
+    height: 500px;
+    padding: 100px;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.home-info h3 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.social-links {
+    background-color: black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.skills {
+    background-image: url(/Images/black\ and\ white\ laptop.jpg);
+    padding: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.skills-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.skills img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 700px;
+}
+
+
+.About {
+    background-image: url(/Images/nature.jpg);
+    height: 500px;
+    padding: 70px;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    line-height: 30px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.contact-me {
+    background-image: url(/Images/city.jpg);
+    height: 300px;
+    padding: 70px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.contact-info {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.contact-info input {
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 30%;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.contact-info form button {
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    font-size: 20px;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
